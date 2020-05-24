@@ -10,7 +10,7 @@
 * November 21, 2017     Version 0.1
 *****************************************/
 
-public class DoubletheSizeofa1Darray 
+public class Array_Double_Size 
 {
 	
 	public static void main(String[] args)
