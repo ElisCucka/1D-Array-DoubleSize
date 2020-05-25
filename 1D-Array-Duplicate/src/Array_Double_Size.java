@@ -12,6 +12,11 @@
 
 public class Array_Double_Size 
 {
+	/***************************************************************
+	* main - Creating and printing double capacity array
+	* Inputs: args - String array
+	* Outputs: void - none
+	***************************************************************/
 	
 	public static void main(String[] args)
 	{
@@ -36,16 +41,16 @@ public class Array_Double_Size
 		System.out.println();
 		
 		
-		int[] number2 = new int[array1.length * 2];
+		int[] array2 = new int[array1.length * 2];
 		//Printing the content of the new and larger array.
 		System.out.print("The content of the new and larger array is: ");
 		
 		//Calling the method.
-		number2 = doubleCapacity (array1);
+		array2 = doubleCapacity (array1);
 		
-		for(int i = 0; i < number2.length; i++)
+		for(int i = 0; i < array2.length; i++)
 		{
-			System.out.print(number2[i] + " ");
+			System.out.print(array2[i] + " ");
 		}
 	}
     
