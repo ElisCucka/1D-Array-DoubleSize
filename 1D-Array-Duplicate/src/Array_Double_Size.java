@@ -17,7 +17,6 @@ public class Array_Double_Size
 	* Inputs: args - String array
 	* Outputs: void - none
 	***************************************************************/
-	
 	public static void main(String[] args)
 	{
 		int[] array1 = new int[5];
@@ -62,7 +61,6 @@ public class Array_Double_Size
 	* Inputs: list - array entered before
 	* Outputs: number1 - doubled sized array 
 	***************************************************************/
-	
 	public static int[] doubleCapacity (int[] list)
 	{
 		int[] double_size_array = new int[list.length * 2];
